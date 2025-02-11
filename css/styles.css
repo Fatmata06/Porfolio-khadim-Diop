@@ -335,7 +335,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #24262a;
+	background-color: #000000;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -420,7 +420,7 @@ input[type='checkbox'] {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	border: none;
-	background-color: #24262a;
+	background-color: #000000;
 }
 
 .navbar .dropdown-item {
@@ -520,9 +520,11 @@ input[type='checkbox'] {
 }
 
 .header .h1-large {
-    font-size: 2rem; /* Ajuste selon tes besoins (ex: 1.8rem, 1.5rem) */
+    font-size: 3rem; /* Ajuste selon tes besoins (ex: 1.8rem, 1.5rem) */
     line-height: 1.2; /* Réduit l'espacement entre les lignes */
     max-width: 80%; /* Évite que le texte s'étale trop */
+	margin-bottom: 1.75rem;
+    color: #ffffff;
 }
 
 .header .btn-solid-lg:hover {
