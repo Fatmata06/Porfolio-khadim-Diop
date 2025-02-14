@@ -502,6 +502,7 @@ input[type='checkbox'] {
 }
 .d-flex.justify-content-center {
     gap: 20px; /* Ajuste selon tes besoins */
+	flex-wrap: wrap;
 }
 
 /*****************/
