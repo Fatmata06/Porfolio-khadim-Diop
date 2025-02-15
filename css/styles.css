@@ -498,7 +498,7 @@ input[type='checkbox'] {
 
 .btn-outline-light {
     text-decoration: none !important; /* Supprime le soulignement au cas où */
-    
+	
 }
 .d-flex.justify-content-center {
     gap: 20px; /* Ajuste selon tes besoins */
@@ -771,6 +771,7 @@ a:hover.back-to-top {
     .header .h1-large {
         font-size: 1.5rem; /* Plus petit sur mobile */
     }
+	
 }
 
 /* Min-width 992px */
@@ -879,7 +880,15 @@ a:hover.back-to-top {
 }
 /* end of min-width 992px */
 
+@media (max-width: 991px) { /* Ajuste pour les écrans moyens et petits */
+    .text-container.second {
+        margin-bottom: 0 !important; /* Évite un espace en bas */
+    }
 
+    .text-container.third {
+        margin-top: -50px !important; /* Réduit l’espace entre les deux blocs */
+    }
+}
 /* Min-width 1200px */
 @media (min-width: 1200px) {
 
